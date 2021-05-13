@@ -1,0 +1,49 @@
+Arguments: 
+  D:\Nodejs\node.exe C:\Users\Revincx\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vite-plugin-vue2 --dev
+
+PATH: 
+  E:\项目\renex-url\node_modules\.bin;D:\IntelliJ IDEA 2020.2.3\jbr\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Nodejs;D:\Putty\;D:\Python\Python39\Scripts\;D:\LxRunOffline;C:\Program Files\Git\cmd;D:\TOOLS_BY_CZ_V7.01;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;D:\MingGW\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\mysql\\bin;D:\heroku\bin;D:\ffmpeg\bin;C:\Program Files\Git\usr\bin;D:\Ruby\bin;C:\Users\Revincx\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Revincx\AppData\Local\Programs\Python\Python39\;C:\Users\Revincx\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;D:\IntelliJ IDEA 2020.2.3\bin;D:\Fiddler;C:\Users\Revincx\AppData\Roaming\npm;D:\Nodejs;D:\Python\Python39\Scripts\;C:\Users\Revincx\AppData\Local\GitHubDesktop\bin;D:\PhpStorm\bin;;D:\heroku\bin;D:\MingGW\bin;D:\MinGW\mingw64\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\项目\renex-url\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "renex-url",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "clipboard": "^2.0.8",
+      "mdui": "^1.0.2",
+      "vite-plugin-vue2": "^1.5.1",
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@tailwindcss/postcss7-compat": "^2.1.2",
+      "@vitejs/plugin-vue": "^1.2.2",
+      "@vue/compiler-sfc": "^3.0.5",
+      "autoprefixer": "^9.8.6",
+      "postcss": "^7.0.35",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+      "vite": "^2.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
