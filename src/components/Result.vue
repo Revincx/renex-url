@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col transition-all mdui-shadow-4 rounded mx-12 mt-8 p-4" v-if="finished">
+  <div class="flex flex-col transition-all mdui-shadow-4 rounded mx-6 mt-10 md:mx-12 md:mt-16 p-4" v-if="finished">
     <div class="result flex flex-col">
       <h4 class=" text-lg text-black">生成结果</h4>
       <div class="my-4 p-2 bg-gray-100 rounded">
@@ -56,6 +56,7 @@ export default {
               position: 'right-bottom',
               timeout: 1500
             })
+            console.log(err);
             this.finishRequest()
           })
     },

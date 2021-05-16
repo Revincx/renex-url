@@ -1,5 +1,4 @@
 <template>
-<!--  <div>-->
     <div class="mdui-progress top-progress" v-if="loading">
       <div class="mdui-progress-indeterminate"></div>
     </div>
@@ -8,7 +7,6 @@
       <input v-model="url" class="mdui-textfield-input" type="text"/>
     </div>
     <input @click="requestUrl" type="button" class="mdui-btn mdui-btn-raised bg-blue-400 mdui-color-theme-accent mdui-ripple self-end" value="提交">
-<!--  </div>-->
 </template>
 
 <script>
